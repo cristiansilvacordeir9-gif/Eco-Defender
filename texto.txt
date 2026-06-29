@@ -1,0 +1,318 @@
+🌍 Projeto: Eco Defender
+
+Tema: Sustentabilidade
+
+Motor: Godot 4
+
+Gênero: Shoot 'em up (estilo arcade)
+
+Tempo disponível: 1 dia
+
+Equipe: 3 pessoas
+
+Objetivo da feira: Mostrar, por meio de um jogo, a importância de combater a poluição e proteger o meio ambiente.
+
+
+---
+
+📁 Estrutura do projeto
+
+EcoDefender/
+│
+├── assets/
+│   ├── sprites/
+│   │   ├── player/
+│   │   ├── enemies/
+│   │   ├── bullets/
+│   │   ├── powerups/
+│   │   ├── ui/
+│   │   └── effects/
+│   │
+│   ├── backgrounds/
+│   ├── sounds/
+│   ├── music/
+│   └── fonts/
+│
+├── scenes/
+│   ├── player/
+│   ├── enemies/
+│   ├── bullets/
+│   ├── ui/
+│   ├── managers/
+│   └── main/
+│
+├── scripts/
+├── autoload/
+└── README.md
+
+
+---
+
+👨‍🎨 Integrante 1 – Arte
+
+Objetivo
+
+Deixar o jogo bonito e fácil de entender.
+
+Lista de tarefas
+
+Personagem
+
+Nave ecológica.
+
+
+Inimigos
+
+Garrafa plástica.
+
+Saco de lixo.
+
+Barril tóxico.
+
+
+Projéteis
+
+Tiro da nave.
+
+
+Cenário
+
+Fundo da floresta.
+
+
+Interface
+
+Coração.
+
+Ícone de pontuação.
+
+Botão Jogar.
+
+Botão Sair.
+
+
+Efeitos
+
+Explosão.
+
+Coleta de lixo.
+
+
+
+---
+
+👨‍💻 Integrante 2 – Programação (Jogabilidade)
+
+Objetivo
+
+Fazer o jogo funcionar.
+
+Sistema do jogador
+
+Movimento.
+
+Limites da tela.
+
+Atirar.
+
+Tempo entre tiros.
+
+
+Sistema dos inimigos
+
+Spawn automático.
+
+Movimento.
+
+Destruição.
+
+
+Colisões
+
+Bala × inimigo.
+
+Jogador × inimigo.
+
+
+Vida
+
+3 corações.
+
+Perda de vida.
+
+Game Over.
+
+
+
+---
+
+👨‍💻 Integrante 3 – Programação (Sistema)
+
+Objetivo
+
+Controlar a lógica geral.
+
+HUD
+
+Mostrar:
+
+Vida.
+
+Pontuação.
+
+Tempo.
+
+Nível.
+
+
+Pontuação
+
++10 por inimigo.
+
++50 por item reciclado.
+
+
+Dificuldade
+
+A cada 500 pontos:
+
+aumenta velocidade dos inimigos;
+
+reduz tempo entre spawns.
+
+
+Menus
+
+Tela inicial.
+
+Game Over.
+
+Reiniciar.
+
+
+
+---
+
+🎮 Fluxo do jogo
+
+Menu
+   │
+   ▼
+Jogar
+   │
+   ▼
+Fase Floresta
+   │
+   ▼
+Inimigos aparecem
+   │
+   ▼
+Pontuação aumenta
+   │
+   ▼
+Dificuldade aumenta
+   │
+   ▼
+Jogador perde toda a vida
+   │
+   ▼
+Game Over
+   │
+   ▼
+Reiniciar
+
+
+---
+
+🎯 Mecânicas
+
+Jogador
+
+Movimento em 8 direções.
+
+Tiro contínuo.
+
+3 vidas.
+
+
+Inimigos
+
+Descem pela tela.
+
+Alguns são rápidos.
+
+Outros são resistentes.
+
+
+Pontuação
+
+Derrotar inimigo: +10.
+
+Coletar recicláveis: +50.
+
+
+
+---
+
+📈 Progressão
+
+Pontuação	Mudança
+
+0	Início
+500	Inimigos mais rápidos
+1000	Mais inimigos
+1500	Spawn mais frequente
+2000	Velocidade aumenta novamente
+
+
+Assim o jogo continua desafiador sem precisar trocar de fase.
+
+
+---
+
+🕒 Cronograma (1 dia)
+
+Horário	Atividade
+
+08:00–09:00	Criar projeto e organizar pastas
+09:00–11:00	Arte e movimento da nave
+11:00–13:00	Tiros, inimigos e colisões
+13:00–14:00	Almoço
+14:00–16:00	HUD, pontuação e Game Over
+16:00–17:00	Sons e música
+17:00–18:00	Testes e correções
+18:00–19:00	Preparar apresentação
+
+
+
+---
+
+🎤 Apresentação na feira
+
+Enquanto alguém joga, outro integrante pode explicar:
+
+A nave representa uma ação de proteção ao meio ambiente.
+
+Os inimigos representam diferentes tipos de poluição.
+
+A pontuação simboliza o impacto positivo de recolher resíduos e combater a poluição.
+
+O aumento da dificuldade mostra que, quanto mais o problema ambiental cresce, maior é o esforço necessário para enfrentá-lo.
+
+
+Depois da feira
+
+Com mais tempo, vocês podem evoluir esse protótipo adicionando:
+
+novos cenários (rio, cidade e indústria);
+
+chefões;
+
+power-ups;
+
+modo cooperativo para 2 jogadores;
+
+sistema de recordes e conquistas.
+
+
+Assim vocês entregam um jogo funcional dentro do prazo e ainda deixam uma base sólida para futuras melhorias.
