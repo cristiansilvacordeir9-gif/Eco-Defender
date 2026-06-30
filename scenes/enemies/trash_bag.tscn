@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dm6ehpg4p6daq"]
+
+[ext_resource type="Texture2D" uid="uid://cwfmj7kdnjduc" path="res://docs/pixil-layer-Background.webp" id="1_bo01r"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yyodu"]
+radius = 16.03122
+
+[node name="TrashBag" type="Area2D" unique_id=463334188]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1261854317]
+texture = ExtResource("1_bo01r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1719600618]
+position = Vector2(4, 4)
+shape = SubResource("CircleShape2D_yyodu")
